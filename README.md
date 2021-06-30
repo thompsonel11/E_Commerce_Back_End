@@ -30,7 +30,11 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-## Insomnia Demos
+## Demos
+
+* The following link demonstrates how to create the schema from the MySQL shell, how to seed the database from the command line, how to start the application’s server.
+
+    https://drive.google.com/file/d/1lHYLu3EOOoR_3D_XxEHG6fh5P9W4O8fm/view
 
 * The following link contains a demo of the application's GET routes to return all categories, all products, all tags, a single category, a single product, and a single tag being tested in Insomnia Core:
 
@@ -68,33 +72,5 @@ The `schema.sql` file in the `db` folder to creates the database with MySQL shel
 
 Run `nodemon server.js` to sync the Sequelize models to the MySQL database on server start.
 
-
-### Walkthrough Video: 37%
-
-* A walkthrough video that demonstrates the functionality of the e-commerce back end must be submitted, and a link to the video should be included in your readme file.
-
-* The walkthrough video must show all of the technical acceptance criteria being met.
-
-* The walkthrough video must demonstrate how to create the schema from the MySQL shell.
-
-* The walkthrough video must demonstrate how to seed the database from the command line.
-
-* The walkthrough video must demonstrate how to start the application’s server.
-
-* The walkthrough video must demonstrate GET routes for all categories, all products, and all tags being tested in Insomnia Core.
-
-* The walkthrough video must demonstrate GET routes for a single category, a single product, and a single tag being tested in Insomnia Core.
-
-* The walkthrough video must demonstrate POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
-
-
-
-
-DEMO LINKS: 
-GET ALL and GET BY ID: https://drive.google.com/file/d/1hYAMcX6e-za19EFVULMxmKQW8_HLXBtw/view
-
-POST: https://drive.google.com/file/d/1PuCS8RxJK8LnN9bjNIfmJirHU6HRZbu8/view
-
-DELETE: https://drive.google.com/file/d/1IK67B_ZmuXF2U9n9JgKMW9bIBLwvGHC9/view
 
 
