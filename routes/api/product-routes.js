@@ -68,8 +68,10 @@ router.post('/', (req, res) => {
     });
 });
 
+
 // update product
 router.put('/:id', (req, res) => {
+  console.log('HIT UPDATE ROUTE!')
   // update product data
   Product.update(req.body, {
     where: {
@@ -84,7 +86,7 @@ router.put('/:id', (req, res) => {
       // get list of current tag_ids
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
       // create filtered list of new tag_ids
-      const newProductTags = req.body.tagIds
+      const newProductTags = productTags
         .filter((tag_id) => !productTagIds.includes(tag_id))
         .map((tag_id) => {
           return {
@@ -94,9 +96,8 @@ router.put('/:id', (req, res) => {
         });
       // figure out which ones to remove
       const productTagsToRemove = productTags
-        .filter(({ tag_id }) => !req.body.tagIds.includes(tag_id))
+        .filter(({ tag_id }) => !productTags.includes(tag_id))
         .map(({ id }) => id);
-
       // run both actions
       return Promise.all([
         ProductTag.destroy({ where: { id: productTagsToRemove } }),
