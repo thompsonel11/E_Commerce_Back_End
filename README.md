@@ -70,7 +70,7 @@ The `schema.sql` file in the `db` folder to creates the database with MySQL shel
 
 ### Sync Sequelize to the Database on Server Start
 
-Run `nodemon server.js` to sync the Sequelize models to the MySQL database on server start.
+Use `server.js` to sync the Sequelize models to the MySQL database on server start.
 
 
 
