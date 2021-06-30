@@ -34,7 +34,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 * The following link demonstrates how to create the schema from the MySQL shell, how to seed the database from the command line, how to start the application’s server.
 
-    https://drive.google.com/file/d/1lHYLu3EOOoR_3D_XxEHG6fh5P9W4O8fm/view
+    https://drive.google.com/file/d/14fVySE-hh2CGymqv6AgMCxwMHU0oYG9r/view
 
 * The following link contains a demo of the application's GET routes to return all categories, all products, all tags, a single category, a single product, and a single tag being tested in Insomnia Core:
 
