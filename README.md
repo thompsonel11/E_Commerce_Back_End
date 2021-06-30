@@ -32,7 +32,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Demos
 
-* The following link demonstrates how to create the schema from the MySQL shell, how to seed the database from the command line, how to start the application’s server.
+* The following link demonstrates how to create the schema from the MySQL shell, how to seed the database from the command line, and how to start the application’s server.
 
     https://drive.google.com/file/d/14fVySE-hh2CGymqv6AgMCxwMHU0oYG9r/view
 
